@@ -1,0 +1,24 @@
+
+.aboutHero .jumbotron{
+    margin-bottom: 0 !important;
+    
+}
+
+.aboutOffset{
+    border: solid white 3px;
+    margin-left: -10%;
+    padding: 50px;
+    width: 65%;
+}
+
+.aboutOffset h2 {
+    font-family: 'Vollkhorn, serif';
+    font-weight: 800;
+    font-size: 4rem;
+    color: white;
+    text-transform: uppercase;  
+    margin-left: 50%; 
+    border-left: solid  #F7CBC7 7px;
+    padding-left: 30px;
+}
+

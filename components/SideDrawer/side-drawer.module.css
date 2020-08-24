@@ -1,0 +1,72 @@
+.navToggle {
+    background-color: black;
+    padding: 18.75px 15.5px;
+    border-radius: 50%; 
+
+}
+
+.burgerBar {
+    height: 4px;
+    width: 28px;
+    background-color: white;
+    margin: 4.75px;
+    display: block;
+}
+
+.navToggleButton {
+    border: none;
+    background-color: transparent;
+}
+
+.sideDrawer {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    max-width: 320px;
+    position: fixed;
+    top:0;
+    right: 0;
+    z-index: 200;
+    transform: translateX(0);
+    transition: transform 0.5s ease-out;
+    
+}
+
+.sideDrawer.open {
+    transform: translateX(0);
+}
+
+.sideDrawer .sideUL {
+    height: 100%;   
+    list-style: none;
+    padding-top: 3rem;
+    
+}
+
+.sideDrawer ul li {
+    margin: 10px 0;
+}
+.sideDrawer ul li a {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Ubuntu';
+    font-weight: '700';
+    font-size: 1.35rem;
+    letter-spacing: 0.1rem;
+    padding-bottom: 3px;
+    
+}
+
+.sideDrawer ul li a:hover,
+.sideDrawer ul li a:focus,
+.sideDrawer ul li a:active {
+    text-decoration: none;
+    color: #F0ADAD;
+    border-bottom: solid 3px #F0ADAD;
+    
+    
+}
+
+.sideDrawer ul li a:active {
+
+}
