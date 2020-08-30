@@ -5,7 +5,7 @@ import styles from './side-drawer.module.css'
 export default function SideDrawer (props) {
     
     let drawerClasses = ['sideDrawer'];
-    if (sideDrawerOpen = true) {
+    if (props.sideDrawerOpen = true) {
         drawerClasses = ['sideDrawer open'];
     }
     

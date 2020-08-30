@@ -1,0 +1,33 @@
+.projectNav .container-fluid {
+    background: rgb(240,173,173);
+    background: linear-gradient(180deg, rgba(240,173,173,1) 0%, rgba(240,176,175,1) 35%, #f7cbc7 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 15%;
+    margin-top: 45px;
+
+}
+
+.projectNav button {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.arrow{
+    border: solid  white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    margin-left: 5px;
+}
+
+.right {
+    transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}

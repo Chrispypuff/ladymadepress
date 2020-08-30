@@ -1,23 +1,24 @@
 import React from 'react'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
-import styles from './hero.module.css'
+import styles from './page-heroes.module.css'
 
 
 
-export default function Hero() {
+
+export default function PageHero(props) {
     return(
-        <div className="indexHero">
+        <div className={props.pageName}>
             <Jumbotron >
                 <Container fluid >
-                    <h1 className="heroH1">Smart. <br/> Thoughtful. <br/> Funny.</h1>
+                    <h1 className="heroH1"> {props.pageTitle}</h1>
                 </Container>
                 <div className="descriptionBox">
-                    <h3>A Project isn't finished until it makes you smile. </h3>
-                </div> 
+                    <h3>{props.pageDescription}</h3>
+                </div>
             </Jumbotron>
+            
         </div>
 
     );
 }
-

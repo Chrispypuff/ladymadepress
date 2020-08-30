@@ -1,0 +1,60 @@
+footer .container-fluid {
+    background-color: black;
+    color: white;
+    padding: 25px 45px;
+}
+
+footer .footerBritt {
+    text-align: center;
+    margin-top: 25px;
+}
+
+footer .footerBritt h4 {
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    margin: 5px 0;
+}
+
+footer .footerBritt h5 {
+    
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 0.08rem;
+}
+
+footer .footerSocial {
+    display: flex;
+    justify-content: center;
+    margin: 35px 0;
+}
+
+footer .footerSocial h5 {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+
+}
+
+footer .footerSocial a {
+    color: #F0ADAD;
+    transition: all ease-in 0.3s;
+    font-weight: 300;
+    letter-spacing: 0.08rem;
+
+}
+
+footer .footerSocial a:hover,
+footer .footerSocial a:focus {
+    color: white;
+    text-decoration: none;
+}
+
+footer .socialItem {
+    margin: 10px 45px;
+}

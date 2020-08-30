@@ -1,14 +1,15 @@
 import React from 'react'
 import Head from 'next/head'
 import NavBar from '../components/nav-bar'
-import DescriptionBox from '../components/description-box'
-import ApparelHero from '../components/heroes/apparel-hero'
+import PageHero from '../components/heroes/page-hero'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import '../styles/apparel.css';
+import Footer from '../components/footer'
+import ProjectNav from '../components/ProjectNav/project-nav'
 
-export default function Apparel() {
+export default function Apparel(props) {
     
     const [sideDrawerOpen, setOpen] = React.useState(false)
   
@@ -29,7 +30,7 @@ export default function Apparel() {
             <NavBar drawerClickHandler={() => setOpen(!sideDrawerOpen)}/> 
                 {sideDrawer}
                 {backdrop}
-            <ApparelHero />     
+            <PageHero pageName="apparel" pageTitle="Apparel Design" pageDescription="Thinking about how ink sits on fabric, or how shapes need to be layered for a particular garment make the final design stronger. The technical boundaries of apparel design help me hone my skills and improve with each project."/>     
         </header>
         <main>
             <Container>
@@ -110,9 +111,11 @@ export default function Apparel() {
                     </Col>
                 </Row>
             </Container>
+            <ProjectNav prevProjectLink="/print" nextProjectLink="/digital" />
         </main>
         <footer>
             
+            <Footer />
         </footer>
     </div>
     )

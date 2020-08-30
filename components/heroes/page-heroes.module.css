@@ -1,0 +1,19 @@
+.apparel .jumbotron {
+    position: relative;
+    z-index: -100;
+    display: flex;
+    justify-content: center;
+}
+
+
+.apparel .descriptionBox {
+    position: absolute;
+    bottom: 0px;
+    transform: translateY(50%);
+
+}
+
+.apparel .descriptionBox h3 {
+    font-size: 1rem;
+    padding: auto 5rem;
+}
