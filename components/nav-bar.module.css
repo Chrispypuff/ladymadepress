@@ -6,7 +6,7 @@
 .navLogo {
     position: absolute;
     top: 50px;
-    left: 30px;
+    left: 50px;
 }
 
 .navMenu {
@@ -14,4 +14,9 @@
     top: 50px;
     right: 30px;
     float: right;
+}
+
+.logoDesktop {
+    height: 175px;
+    width: auto;
 }

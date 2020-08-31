@@ -6,6 +6,8 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import '../styles/apparel.css';
+import SideDrawer from '../components/SideDrawer/sideDrawer'
+import Backdrop from '../components/backdrop/backdrop'
 import Footer from '../components/footer'
 import ProjectNav from '../components/ProjectNav/project-nav'
 

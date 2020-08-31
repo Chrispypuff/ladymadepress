@@ -1,15 +1,20 @@
 .navToggle {
     background-color: black;
-    padding: 18.75px 15.5px;
+    height: 69px;
+    width: 69px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 16px;
     border-radius: 50%; 
 
 }
 
 .burgerBar {
-    height: 4px;
-    width: 28px;
+    height: 3px;
+    width: 30px;
     background-color: white;
-    margin: 4.75px;
     display: block;
 }
 
@@ -18,7 +23,7 @@
     background-color: transparent;
 }
 
-.sideDrawer {
+.sideDrawer{
     background-color: black;
     height: 100%;
     width: 100%;
@@ -27,8 +32,9 @@
     top:0;
     right: 0;
     z-index: 200;
-    transform: translateX(0);
-    transition: transform 0.5s ease-out;
+    transform: translateX(-100%);
+    transition: all 0.3s ease-out;
+    box-shadow: -10px 0px 60px rgba(0,0,0,0.5);
     
 }
 
@@ -40,6 +46,11 @@
     height: 100%;   
     list-style: none;
     padding-top: 3rem;
+    padding-left: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction:  column;
+
     
 }
 
@@ -54,6 +65,7 @@
     font-size: 1.35rem;
     letter-spacing: 0.1rem;
     padding-bottom: 3px;
+    transition: all 0.3s ease-out;
     
 }
 

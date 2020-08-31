@@ -10,7 +10,7 @@ export default function NavBar (props) {
             <Container fluid>
                 <div className="navLogo">
                     <Link href="/">
-                        <img src="./public/lmp-placeholder-logo.png" alt="Lady Made Press logo"/>
+                        <img className="logoDesktop" src="/logo-desktop.svg" alt="Lady Made Press logo"/>
                     </Link>
                 </div>
                 <div className="navMenu">
