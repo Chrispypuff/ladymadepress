@@ -8,9 +8,14 @@ export default function NavBar (props) {
     return (
         <div className="navBar">
             <Container fluid>
-                <div className="navLogo">
+                <div className="navLogo logoDesktop">
                     <Link href="/">
-                        <img className="logoDesktop" src="/logo-desktop.svg" alt="Lady Made Press logo"/>
+                        <img src="/logo-desktop.svg" alt="Lady Made Press logo"/>    
+                    </Link>
+                </div>
+                <div className="navLogo logoMobile">
+                    <Link href="/">
+                        <img src="/logo-mobile.svg" alt="Lady Made Press logo"/>    
                     </Link>
                 </div>
                 <div className="navMenu">

@@ -14,6 +14,10 @@
     margin: 0 15px;
 }
 
+.projectNav button:hover {
+  background-color: white;
+}
+
 .arrow{
     border: solid  white;
     border-width: 0 2px 2px 0;
@@ -30,4 +34,15 @@
 .left {
     transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
+}
+
+@media (max-width: 768px) {
+
+  .projectNav .container-fluid {
+    padding: 1.3rem 0;
+  }
+
+  .projectNav button {
+    font-size: 0.85rem;
+  }
 }

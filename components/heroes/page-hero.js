@@ -11,7 +11,7 @@ export default function PageHero(props) {
         <div className={props.pageName}>
             <Jumbotron >
                 <Container fluid >
-                    <h1 className="heroH1"> {props.pageTitle}</h1>
+                    <h1 className="heroH1 pageHero"> {props.pageTitle}</h1>
                 </Container>
                 <div className="descriptionBox">
                     <h3>{props.pageDescription}</h3>

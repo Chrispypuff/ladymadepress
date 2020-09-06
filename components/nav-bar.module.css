@@ -1,12 +1,18 @@
 .navBar {
     position: fixed;
     min-width: 100%;
+    z-index: 300;
 }
 
 .navLogo {
     position: absolute;
     top: 50px;
     left: 50px;
+}
+
+.logoMobile {
+    display: none;
+    
 }
 
 .navMenu {
@@ -16,7 +22,55 @@
     float: right;
 }
 
+.navLogo:hover {
+    cursor: pointer;
+}
+
 .logoDesktop {
     height: 175px;
     width: auto;
+}
+
+.navMenu button:hover {
+    background-color: transparent;
+}
+
+@media (max-width: 768px) {
+ 
+    .navBar {
+        background-color: rgba(0,0,0,1);
+        height: 85px;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .logoDesktop {
+        display: none;
+    }
+
+    .logoMobile {
+        display: block;
+        top: 20px;
+        left: 20px;
+    }
+
+    .logoMobile img {
+        height: 45px;
+        width: auto;
+        
+    }
+
+    .navMenu {
+        top: 0px;
+        right: 0px;
+        transform: scale(0.8);
+       
+    }
+
+    .navBar .container-fluid {
+        padding: 0;
+    }
+
+    
 }

@@ -21,13 +21,13 @@ export default function AboutDescriiption()  {
                     <div className="aboutButtonSection">
                         <Link href="/">
                             <a>
-                                <button className="whiteButton"> View Resumé</button>
+                                <button className="whiteButton"> Resumé</button>
                             </a>
                         </Link>
                         <div  className="ampersand"> <p>&</p> </div>
                         <Link href="/">
                             <a>
-                                <button className="whiteButton"> Contact Me</button>
+                                <button className="whiteButton"> Contact</button>
                             </a>
                         </Link>
                     </div>

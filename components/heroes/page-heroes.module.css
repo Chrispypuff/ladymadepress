@@ -1,19 +1,115 @@
-.apparel .jumbotron {
+.apparel,
+.digital,
+.print {
     position: relative;
-    z-index: -100;
-    display: flex;
-    justify-content: center;
 }
 
+.apparel .jumbotron,
+.digital .jumbotron,
+.print .jumbotron {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0;
+    height:339px;
+    align-items: center;
 
-.apparel .descriptionBox {
+}
+
+.apparel .jumbotron {
+    background: url('/apparel.jpg');
+}
+
+.digital .jumbotron {
+    background: url('/digital.jpg');
+}
+
+.print .jumbotron {
+    background: url('/print.jpg');
+}
+
+.pageHero{
+    font-family: 'Vollkorn', serif;
+    font-size: 4rem ;
+    text-align: center;
+    padding: 0;
+    letter-spacing: 0.1rem;
+}
+.apparel .descriptionBox,
+.digital .descriptionBox,
+.print .descriptionBox {
     position: absolute;
     bottom: 0px;
     transform: translateY(50%);
 
 }
 
-.apparel .descriptionBox h3 {
+.apparel .descriptionBox h3,
+.digital .descriptionBox h3,
+.print .descriptionBox {
     font-size: 1rem;
     padding: auto 5rem;
+}
+
+@media (max-width: 768px) {
+    
+    .apparel .jumbotron,
+    .digital .jumbotron,
+    .print .jumbotron {
+        margin:0;
+        padding: 0px;
+        padding-top:28px;
+        
+        margin-bottom:28px;
+        margin-top:85px;
+        flex-direction: column;
+    } 
+
+    .apparel .jumbotron .container-fluid,
+    .digital .jumbotron .container-fluid,
+    .print .jumbotron .container-fluid {
+        position: absolute;
+        top: 20%;
+    }
+
+    .heroH1.pageHero {
+        font-size: 2.2rem;
+    }
+    .apparel .descriptionBox,
+    .digital .descriptionBox,
+    .print .descriptionBox {
+        transform: translateY(0);
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        align-self: flex-end;
+        margin: 0;
+       
+    }
+    
+   
+
+    .apparel .descriptionBox h3,
+    .digital .descriptionBox h3,
+    .print .descriptionBox h3 {
+        margin-bottom: 0;
+        padding:30px;
+    }
+
+    
+
+    .apparel .jumbotron {
+        background: url('/apparel-mobile.jpg');
+    }
+    
+    .digital .jumbotron {
+        background: url('/digital-mobile.jpg');
+    }
+    
+    .print .jumbotron {
+        background: url('/print-mobile.jpg');
+    }
 }

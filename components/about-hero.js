@@ -5,15 +5,12 @@ import styles from './about-hero.module.css'
 
 export default function AboutHero() {
     return (
-        <div className="aboutHero">
+        <div className="aboutHero aboutHeroDesktop">
             <Jumbotron fluid>
-                <Container  fluid>
-                    <div className="aboutOffset">
-                        <h2>The right <br/> lady for <br/>the job </h2>    
-                    </div>
-                </Container>
+                
             </Jumbotron>
         </div>
-    );
+        
+    )
 }
 

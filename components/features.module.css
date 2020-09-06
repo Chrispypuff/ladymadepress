@@ -1,14 +1,21 @@
 .featureContainer {
     margin: 45px 0;
-    margin-top: 85px;
+    margin-top: 0px;
 }
 
 .featureIcon {
     margin: auto;
 }
+
+.featureIcon img {
+    padding: 20px;
+}
+
 .featureDescription {
     text-align: center;
     margin: 30px 0px;
+    margin-top: 0px;
+
 }
 
 .featureDescription h4 {
@@ -26,6 +33,8 @@
     border-radius: 30px;
     margin: auto;
     display: block;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
 }
 
 .arrow{
@@ -34,9 +43,40 @@
     display: inline-block;
     padding: 4px;
     margin-left: 5px;
+    transition: all 0.3s ease-in;
 }
 
 .right {
     transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
+}
+
+button.featureButton:hover {
+    color: black;
+    text-decoration: none;
+}
+
+button.featureButton:hover .arrow{
+    border: solid  black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+    
+    .featureIcon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .featureIcon img {
+        height: 250px;
+        width: auto;
+        margin: 0;
+        padding: 0;
+        
+    }
 }

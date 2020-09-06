@@ -28,7 +28,7 @@
 
 .aboutButtonSection {
     position: relative;
-    margin: 20px, auto;
+    margin: 0px auto;
     padding-top: 30px;
     display: flex;
     justify-content: space-evenly;
@@ -47,6 +47,7 @@
     border-radius: 30px;
     display: block;
     float: left;
+    transition: all 0.3s ease-in;
 }
 
 .whiteButton:hover {
@@ -55,10 +56,11 @@
 }
 
 .ampersand {
-    display: block;
+    display: flex;
     float: left;
     color: white;
-    font-family: 'Vollkhorn, serif';
+    font-family: 'Vollkorn';
+    font-style: normal;
     font-weight: 800;
     font-size: 1.75rem;
     border-radius: 50%;
@@ -67,10 +69,31 @@
     height: 55px;
     text-align: center;
     padding: 0px;
+    align-items: center;
+    justify-content: center;
+    
     
 }
 
 .ampersand p {
    margin-top: 6px;
+   transform: translateY(15%);
+}
+
+@media (max-width: 768px) {
+    
+    .aboutDescription {
+        padding: 0;
+        padding-top: 35px;
+    }
+
+    .aboutButtonSection {
+        padding: 5px;
+
+    }
+
+    .ampersand {
+        font-size: 1.75rem;
+    }
 }
 

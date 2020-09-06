@@ -32,18 +32,17 @@ export default function Print(props) {
             <NavBar drawerClickHandler={() => setOpen(!sideDrawerOpen)}/> 
                 {sideDrawer}
                 {backdrop}
-            <PageHero pageName="print" pageTitle="Print Design" pageDescription="With so much of life playing out on our screens, print goods are inherently special. Whether they mark a milestone like a wedding, or are simply a beautifully wrapped birthday gift, I love being a part of those little moments; reminding us what makes these tangible goods keepsakes.
-"/>     
+            <PageHero pageName="print" pageTitle="Print Design" pageDescription="With so much of life playing out on our screens, print goods are inherently special. Whether they mark a milestone like a wedding, or are simply a beautifully wrapped birthday gift, I love being a part of those little moments; reminding us what makes these tangible goods keepsakes."/>     
         </header>
         <main>
             <Container>
                 <Row>
                     <Col sm={12} md={6}>
-                        <img src="public/print/01.jpg" alt="Wedding Suite 1" />
+                        <img src="/print/01.jpg" alt="Wedding Suite 1" />
                     </Col>
 
                     <Col sm={12} md={6}>
-                        <img src="public/print/02.jpg" alt="Wedding Suite 2"/>
+                        <img src="/print/02.jpg" alt="Wedding Suite 2"/>
                     </Col>
                 </Row>
                 <Row>
@@ -56,16 +55,16 @@ export default function Print(props) {
                  {/* UW Tee Designs Desktop*/}
                 <Row hidden ="sm xs">
                 <Col xs={12}>
-                        <img src="public/print/03.jpg" alt="UW Tee Design 01" />
+                        <img src="/print/03.jpg" alt="UW Tee Design 01" />
                     </Col>
                 </Row>
                 <Row>
                     <Col sm={12} md={6}>
-                        <img src="public/print/04.jpg" alt="Teamwork Tee" />
+                        <img src="/print/04.jpg" alt="Teamwork Tee" />
                     </Col>
 
                     <Col sm={12} md={6}>
-                        <img src="public/print/05.jpg" alt="Sofly Shirt Tag"/>
+                        <img src="/print/05.jpg" alt="Sofly Shirt Tag"/>
                     </Col>
                 </Row>
                 <Row>
@@ -77,26 +76,27 @@ export default function Print(props) {
                 </Row>
                 <Row>
                     <Col sm={12} md={4}>
-                        <img src="public/print/06.jpg" alt="American Hippie Donkey and Elephant Design" />
+                        <img src="/print/06.jpg" alt="American Hippie Donkey and Elephant Design" />
                     </Col>
 
                     <Col sm={12} md={4}>
-                        <img src="public/print/07.jpg" alt="American Hippie Peace Sign Design"/>
+                        <img src="/print/07.jpg" alt="American Hippie Peace Sign Design"/>
                     </Col>
 
                     <Col sm={12} md={4}>
-                        <img src="public/print/08.jpg" alt="American Hippie typography Design"/>
+                        <img src="/print/08.jpg" alt="American Hippie typography Design"/>
                     </Col>
+                    
                     <Col sm={12} md={4}>
-                        <img src="public/print/09.jpg" alt="American Hippie Donkey and Elephant Design" />
-                    </Col>
-
-                    <Col sm={12} md={4}>
-                        <img src="public/print/10.jpg" alt="American Hippie Peace Sign Design"/>
+                        <img src="/print/09.jpg" alt="American Hippie Donkey and Elephant Design" />
                     </Col>
 
                     <Col sm={12} md={4}>
-                        <img src="public/print/11.jpg" alt="American Hippie typography Design"/>
+                        <img src="/print/10.jpg" alt="American Hippie Peace Sign Design"/>
+                    </Col>
+
+                    <Col sm={12} md={4}>
+                        <img src="/print/11.jpg" alt="American Hippie typography Design"/>
                     </Col>
                 </Row>
             </Container>

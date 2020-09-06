@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
 import styles from './side-drawer.module.css'
-import Fade from 'react-bootstrap/Fade'
 
 export default function SideDrawer (props) {
 
@@ -13,7 +12,7 @@ export default function SideDrawer (props) {
     }
     
     return(
-        <Fade in={drawerClasses}>
+        
             <nav className={drawerClasses}>
                     <ul className="sideUL">
                         <li>
@@ -33,7 +32,7 @@ export default function SideDrawer (props) {
                         </li>
                     </ul>
             </nav>
-        </Fade>
+        
     )
 }
 

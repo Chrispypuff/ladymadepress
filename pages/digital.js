@@ -10,6 +10,7 @@ import SideDrawer from '../components/SideDrawer/sideDrawer'
 import Backdrop from '../components/backdrop/backdrop'
 import Footer from '../components/footer'
 import ProjectNav from '../components/ProjectNav/project-nav'
+import Carousel from 'react-bootstrap/Carousel'
 
 export default function Digital(props) {
     
@@ -37,80 +38,64 @@ export default function Digital(props) {
         <main>
             <Container>
                 <Row>
-                    <Col sm={12} md={4}>
-                        <img src="public/digital/01.gif" alt="Teamwork Tee" />
-                    </Col>
-
-                    <Col sm={12} md={4}>
-                        <img src="public/digital/02.gif" alt="Sofly Shirt Tag"/>
-                    </Col>
-
-                    <Col sm={12} md={4}>
-                        <img src="public/digital/03.gif" alt="Mint Hat Patch"/>
-                    </Col>    
-                </Row>
-                <Row>
                     <Col xs={12}>
-                        <div className="pullQuote">
-                            <p>From printed garment tags to embroidered patches, each project is an opportunity to collaborate with local brands to make something everyone is proud of.</p>
-                        </div>
-                    </Col>
-                </Row>
-                 {/* UW Tee Designs Desktop*/}
-                <Row hidden ="sm xs">
-                <Col xs={12}>
-                        <img src="public/apparel/04.jpg" alt="UW Tee Design 01" />
-                    </Col>
-                </Row>
-                {/* UW Tee Designs Mobile*/}
-                <Row visible="sm xs">
-                    <Col sm={12} md={4}>
-                        <img src="public/apparel/04.jpg" alt="UW Tee Design 01" />
-                    </Col>
-                    <Col sm={12} md={4}>
-                        <img src="public/apparel/05.jpg" alt="UW Tee Design 02" />
-                    </Col>
-                    <Col sm={12} md={4}>
-                        <img src="public/apparel/06.jpg" alt="UW Tee Design 03" />
-                    </Col>
-                    <Col sm={12} md={4}>
-                        <img src="public/apparel/07.jpg" alt="UW Tee Design 04" />
-                    </Col>
-                    <Col sm={12} md={4}>
-                        <img src="public/apparel/08.jpg" alt="UW Tee Design 05" />
-                    </Col>
-                    <Col sm={12} md={4}>
-                        <img src="public/apparel/09.jpg" alt="UW Tee Design 06" />
+                        <img src="/digital/01.gif" alt="Big Horn Design Cover Images Gif" />
                     </Col>
                 </Row>
                 <Row>
-                <Col sm={12} md={6}>
-                        <img src="public/apparel/10.jpg" alt="Floral Tee" />
-                    </Col>
-
                     <Col sm={12} md={6}>
-                        <img src="public/apparel/11.jpg" alt="Go Pokes Hoodie"/>
+                        <img src="/digital/02.jpg" alt="The Adventurer Gift Guide" />
+                    </Col>
+                    <Col sm={12} md={6}>
+                        <img src="/digital/03.jpg" alt="Warm and Cozy Gift Guide" />
+                    </Col>
+                </Row>
+                <Row>
+                    <Col sm={12} md={4}>
+                        <img src="/digital/04.jpg" alt="Deal of the Day Hoodies" />
+                    </Col>
+                    <Col sm={12} md={4}>
+                        <img src="/digital/05.jpg" alt="Deal of the Day Illustration" />
+                    </Col>
+                    <Col sm={12} md={4}>
+                        <img src="/digital/06.jpg" alt="Deal of the Day T-Shirts" />
                     </Col>
                 </Row>
                 <Row>
                     <Col xs={12}>
                         <div className="pullQuote">
-                            <p>I love the flexibility of designing in a simple way that translates from a ball cap to official letterhead.</p>
+                            <p>I love drawing stuff! I mean actual stuff; all the miscellaneous items that we use everyday. Elevating and taking time to appreciate the things we use daily makes life brighter. These drawings can turn into patterns or series of curated collections.</p>
                         </div>
+                    </Col>
+                </Row> 
+                <Row>
+                    <Col sm={12} md={4}>
+                        <img src="/digital/07.gif" alt="Sharpie Animated Gif" />
+                    </Col>
+
+                    <Col sm={12} md={4}>
+                        <img src="/digital/08.gif" alt="Subaru animated Gif"/>
+                    </Col>
+
+                    <Col sm={12} md={4}>
+                        <img src="/digital/09.gif" alt="Penny Animated Gif"/>
                     </Col>
                 </Row>
                 <Row>
-                    <Col sm={12} md={4}>
-                        <img src="public/apparel/12.jpg" alt="American Hippie Donkey and Elephant Design" />
-                    </Col>
-
-                    <Col sm={12} md={4}>
-                        <img src="public/apparel/13.jpg" alt="American Hippie Peace Sign Design"/>
-                    </Col>
-
-                    <Col sm={12} md={4}>
-                        <img src="public/apparel/14.jpg" alt="American Hippie typography Design"/>
-                    </Col>
+                    <Carousel interval={null}>
+                        <Carousel.Item>
+                            <img className="carouselItem" src="/digital/10.jpg" alt="Teen Wolf Illustration" />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="carouselItem" src="/digital/11.jpg" alt="Bloodsuck'n Babe Illustration" />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="carouselItem" src="/digital/12.jpg" alt="Witchy Woman Illustration"/>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className="carouselItem" src="/digital/13.jpg" alt="Galaxy Gurl Illustration"/>
+                        </Carousel.Item>
+                    </Carousel>
                 </Row>
             </Container>
             <ProjectNav prevProjectLink="/apparel" nextProjectLink="/print" />

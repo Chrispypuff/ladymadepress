@@ -1,6 +1,11 @@
 
 .aboutHero .jumbotron{
     margin-bottom: 0 !important;
+    background: url('/about-image-desktop-alt.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
     
 }
 
@@ -12,7 +17,7 @@
 }
 
 .aboutOffset h2 {
-    font-family: 'Vollkhorn, serif';
+    font-family: 'Vollkorn';
     font-weight: 800;
     font-size: 4rem;
     color: white;
@@ -22,3 +27,17 @@
     padding-left: 30px;
 }
 
+@media (max-width: 768px) {
+
+    .aboutOffset {
+        width: 100%;
+        padding: 50px 20px
+    }
+
+    .aboutOffset h2 {
+        font-size: 2rem;
+        margin-left: 5%;
+        padding-left: 15px;
+    }
+
+}

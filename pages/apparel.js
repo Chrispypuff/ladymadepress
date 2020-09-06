@@ -74,6 +74,7 @@ export default function Apparel(props) {
                     <Col sm={12} md={4}>
                         <img src="/apparel/07.jpg" alt="UW Tee Design 03" />
                     </Col>
+                
                     <Col sm={12} md={4}>
                         <img src="/apparel/08.jpg" alt="UW Tee Design 04" />
                     </Col>

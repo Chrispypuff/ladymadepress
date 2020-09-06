@@ -57,13 +57,14 @@ body,
 html {
     font-size: 16px;
     height:100%;
+    font-family: 'Ubuntu';
 }
 
 @media screen and (max-width: 600px) {
     body,
     html{
         font-size: 14px;
-        font-family: 'Ubuntu, serif';
+                
     }
 }
 
@@ -72,12 +73,14 @@ Typography
 */
 
 h1 {
-    font-family: 'Vollkorn, sans-serif';
+    font-family: 'Vollkorn';
     font-style: normal;
     font-weight: 800;
 }
 
-
+a:hover {
+    text-decoration: none;
+}
 /*
 Other Elements 
 */
@@ -93,7 +96,9 @@ Other Elements
     
 }
 
-.apparel main {
+.apparel main,
+.digital main,
+.print main {
     padding-top: 85px;
 }
 
@@ -110,6 +115,10 @@ img {
     margin-bottom: 0px;
 }
 
+button:hover,
+button:focus {
+    background-color: #F7CBC7 ;
+}
 
 
 /*
@@ -118,4 +127,77 @@ Bootstrap Mods
 
 .row {
     margin-bottom:30px;
+}
+
+.row img {
+    margin: 15px 0;
+}
+
+.digital .carousel {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+.carousel .carousel-control-prev {
+    background-color:black;
+    opacity: 1;
+    height: 60px;
+    width: 60px;
+    top: 50%;
+    transform: translateX(-100%);
+}
+
+.carousel .carousel-control-next {
+    background-color:black;
+    opacity: 1;
+    height: 60px;
+    width: 60px;
+    top: 50%;
+    transform: translateX(100%);
+}
+
+.carousel-indicators li{
+    background-color: black;
+    opacity: 0.3;
+    
+}
+
+/*
+Media Queries 
+*/
+
+@media (max-width: 768px) {
+   header,
+   main,
+   footer {
+        overflow: hidden;
+        
+    }
+
+    .apparel main,
+    .digital main,
+    .print main {
+        padding-top: 30px;
+    }
+
+    .carousel .carousel-control-prev {
+        display: none;
+    }
+    
+    .carousel .carousel-control-next {
+        display: none;
+    }
+
+    .digital .carousel {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .carousel-indicators {
+        transform: translateY(30px);
+        
+    }
+
 }

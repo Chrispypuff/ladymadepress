@@ -8,7 +8,7 @@ import Link from 'next/link'
 export default function Features() {
     return(
         <div className="featureContainer">
-            <Container>
+            <Container fluid="sm xs">
                 <Row>
                     <Col sm={12} md={4}>
                         <div className="featureIcon">

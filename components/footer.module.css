@@ -58,3 +58,16 @@ footer .footerSocial a:focus {
 footer .socialItem {
     margin: 10px 45px;
 }
+
+@media (max-width: 768px) {
+
+    footer .container-fluid {
+        padding: auto 0;
+    }
+
+    footer .footerSocial {
+        flex-direction: column;
+    }
+
+
+}
