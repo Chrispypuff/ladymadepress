@@ -5,7 +5,6 @@ import PageHero from '../components/heroes/page-hero'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import '../styles/apparel.css';
 import SideDrawer from '../components/SideDrawer/sideDrawer'
 import Backdrop from '../components/backdrop/backdrop'
 import Footer from '../components/footer'
@@ -68,19 +67,7 @@ export default function Digital(props) {
                         </div>
                     </Col>
                 </Row> 
-                <Row>
-                    <Col sm={12} md={4}>
-                        <img src="/digital/07.gif" alt="Sharpie Animated Gif" />
-                    </Col>
-
-                    <Col sm={12} md={4}>
-                        <img src="/digital/08.gif" alt="Subaru animated Gif"/>
-                    </Col>
-
-                    <Col sm={12} md={4}>
-                        <img src="/digital/09.gif" alt="Penny Animated Gif"/>
-                    </Col>
-                </Row>
+               
                 <Row>
                     <Carousel interval={null}>
                         <Carousel.Item>
@@ -97,8 +84,21 @@ export default function Digital(props) {
                         </Carousel.Item>
                     </Carousel>
                 </Row>
+                <Row>
+                    <Col sm={12} md={4}>
+                        <img src="/digital/07.gif" alt="Sharpie Animated Gif" />
+                    </Col>
+
+                    <Col sm={12} md={4}>
+                        <img src="/digital/08.gif" alt="Subaru animated Gif"/>
+                    </Col>
+
+                    <Col sm={12} md={4}>
+                        <img src="/digital/09.gif" alt="Penny Animated Gif"/>
+                    </Col>
+                </Row>
             </Container>
-            <ProjectNav prevProjectLink="/apparel" nextProjectLink="/print" />
+            <ProjectNav prevPageName="Apparel" nextPageName="Print" prevProjectLink="/apparel" nextProjectLink="/print" />
         </main>
         <footer>
             <Footer />

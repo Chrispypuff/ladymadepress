@@ -5,7 +5,6 @@ import PageHero from '../components/heroes/page-hero'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import '../styles/apparel.css';
 import SideDrawer from '../components/SideDrawer/sideDrawer'
 import Backdrop from '../components/backdrop/backdrop'
 import Footer from '../components/footer'
@@ -39,11 +38,12 @@ export default function Apparel(props) {
             <Container>
                 <Row>
                     <Col sm={12} md={4}>
-                        <img src="/apparel/01.jpg" alt="Teamwork Tee" />
+                        <img src="/apparel/02.jpg" alt="Sofly Shirt Tag"/>
                     </Col>
 
                     <Col sm={12} md={4}>
-                        <img src="/apparel/02.jpg" alt="Sofly Shirt Tag"/>
+                        <img src="/apparel/01.jpg" alt="Teamwork Tee" />
+                        
                     </Col>
 
                     <Col sm={12} md={4}>
@@ -115,7 +115,7 @@ export default function Apparel(props) {
                     </Col>
                 </Row>
             </Container>
-            <ProjectNav prevProjectLink="/print" nextProjectLink="/digital" />
+            <ProjectNav  prevPageName="Print" nextPageName="Digital" prevProjectLink="/print" nextProjectLink="/digital" />
         </main>
         <footer>
             

@@ -1,10 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
-import Link from 'next/link'
-import Container from 'react-bootstrap/Container'
 import Hero from '../components/hero'
 import Features from '../components/features'
-import AboutHero from '../components/about-hero'
 import AboutDescription from '../components/about-description'
 import NavBar from '../components/nav-bar'
 import SideDrawer from '../components/SideDrawer/sideDrawer'
@@ -26,7 +23,7 @@ export default function Home(props) {
     <div className="index">
       <Head>
         <title>Lady Made Press</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&family=Vollkorn:wght@800&display=swap" rel="stylesheet" />        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <header>
@@ -39,7 +36,6 @@ export default function Home(props) {
 
       <main>
         <Features />
-        <AboutHero  />
         <AboutDescription />
       </main>
 

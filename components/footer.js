@@ -22,14 +22,14 @@ export default function Footer (){
 
             <div className="socialItem">
               <h5 className="linkTitle">Social</h5>
-                <a href="https://www.instagram.com/lady_made_press/" className="socialLink">
+                <a href="https://www.instagram.com/lady_made_press/" target="_blank" className="socialLink">
                   Instagram Page
                 </a>
             </div>
 
             <div className="socialItem">
               <h5 className="linkTitle">Shop</h5>
-                <a href="https://www.etsy.com/shop/Ladymadepress" className="socialLink">
+                <a href="https://www.etsy.com/shop/Ladymadepress" target="_blank" className="socialLink">
                   Etsy Shop
                 </a>
             </div>

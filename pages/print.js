@@ -5,7 +5,6 @@ import PageHero from '../components/heroes/page-hero'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import '../styles/apparel.css';
 import SideDrawer from '../components/SideDrawer/sideDrawer'
 import Backdrop from '../components/backdrop/backdrop'
 import Footer from '../components/footer'
@@ -52,55 +51,61 @@ export default function Print(props) {
                         </div>
                     </Col>
                 </Row>
-                 {/* UW Tee Designs Desktop*/}
-                <Row hidden ="sm xs">
+                 
+                <Row>
                 <Col xs={12}>
-                        <img src="/print/03.jpg" alt="UW Tee Design 01" />
+                        <img src="/print/03.jpg" alt="Mint Bar Coaster Design" />
                     </Col>
                 </Row>
                 <Row>
                     <Col sm={12} md={6}>
-                        <img src="/print/04.jpg" alt="Teamwork Tee" />
+                        <img src="/print/04.jpg" alt="Road Tripping Gift Wrap" />
                     </Col>
 
                     <Col sm={12} md={6}>
-                        <img src="/print/05.jpg" alt="Sofly Shirt Tag"/>
+                        <img src="/print/05.jpg" alt="Junk Food Gift Wrap"/>
                     </Col>
                 </Row>
                 <Row>
                     <Col xs={12}>
                         <div className="pullQuote">
-                            <p>I love the flexibility of designing in a simple way that translates from a ball cap to official letterhead.</p>
+                            <p>What started as a couple punny valentines turned into an entire print it yourself (P.I.Y) greeting card shop. Who doesn’t love some unexpected snail mail, just because?</p>
                         </div>
                     </Col>
                 </Row>
                 <Row>
                     <Col sm={12} md={4}>
-                        <img src="/print/06.jpg" alt="American Hippie Donkey and Elephant Design" />
+                        <img src="/print/06.jpg" alt="Gilmore Girls PIY Greeting Card" />
                     </Col>
 
                     <Col sm={12} md={4}>
-                        <img src="/print/07.jpg" alt="American Hippie Peace Sign Design"/>
+                        <img src="/print/07.jpg" alt="Map PIY Greeting Card"/>
                     </Col>
 
                     <Col sm={12} md={4}>
-                        <img src="/print/08.jpg" alt="American Hippie typography Design"/>
+                        <img src="/print/08.jpg" alt="Matches PIY Greeting Card"/>
                     </Col>
                     
                     <Col sm={12} md={4}>
-                        <img src="/print/09.jpg" alt="American Hippie Donkey and Elephant Design" />
+                        <img src="/print/09.jpg" alt="Father's Day PIY Greeting Card" />
                     </Col>
 
                     <Col sm={12} md={4}>
-                        <img src="/print/10.jpg" alt="American Hippie Peace Sign Design"/>
+                        <img src="/print/10.jpg" alt="Falling for you PIY Greeting Card"/>
                     </Col>
 
                     <Col sm={12} md={4}>
-                        <img src="/print/11.jpg" alt="American Hippie typography Design"/>
+                        <img src="/print/11.jpg" alt="Franks A Lot PIY Greeting Card"/>
                     </Col>
                 </Row>
+                <Row>
+                    <div className="etsyButton">
+                        <h5>Pick up any of these cuties and more at my Etsy shop!</h5>
+                        <a href="https://www.etsy.com/shop/Ladymadepress" target="_blank"><button> Shop Now </button></a>
+                    </div>
+                </Row>
             </Container>
-            <ProjectNav prevProjectLink="/digital" nextProjectLink="/apparel" />
+            <ProjectNav prevPageName="Digital" nextPageName="Apparel" prevProjectLink="/digital" nextProjectLink="/apparel" />
         </main>
         <footer>
             <Footer />

@@ -1,5 +1,7 @@
 footer .container-fluid {
     background-color: black;
+    background: url('/footer-bg.svg');
+    background-repeat: repeat ;
     color: white;
     padding: 25px 45px;
 }
@@ -57,6 +59,7 @@ footer .footerSocial a:focus {
 
 footer .socialItem {
     margin: 10px 45px;
+    text-align: center;
 }
 
 @media (max-width: 768px) {

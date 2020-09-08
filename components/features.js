@@ -16,7 +16,7 @@ export default function Features() {
                         </div>
                         <div className="featureDescription">
                             <h4> Apparel </h4>
-                            <p>The best thing about apparel design is that it gets to live in the real world. Whether its screen print or embroidery there are technical considerations to make, allowing for plenty of creative problem-solving.</p>
+                            <p>The best thing about apparel design is that it gets to be worn in the real world, by real people. Whether its screen printed or embroidered  I enjoy the creative problem-solving involved and the technical considerations that go into wearable art.</p>
                         </div>
                         <Link href="/apparel">
                             <a><button className="featureButton"> View More  <i className="arrow right"></i> </button></a>

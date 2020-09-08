@@ -10,7 +10,7 @@ export default function ProjectNav (props) {
                 <Link href={props.prevProjectLink}>
                 <a>
                     <button className="featureButton"> 
-                        <i className="arrow left"></i> Previous Project 
+                        <i className="arrow left"></i> {props.prevPageName} 
                     </button>
                 </a>
                     
@@ -18,7 +18,7 @@ export default function ProjectNav (props) {
                 <Link href={props.nextProjectLink}>
                 <a>
                     <button className="featureButton"> 
-                        Next Project <i className="arrow right"></i> 
+                        {props.nextPageName} <i className="arrow right"></i> 
                     </button>
                 </a>
                     

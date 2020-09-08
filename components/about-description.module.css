@@ -1,10 +1,49 @@
 
+
 .aboutContainer  {
     background: rgb(240,173,173);
     background: linear-gradient(180deg, rgba(240,173,173,1) 0%, rgba(240,176,175,1) 35%, #f7cbc7 100%);
-    display: block;
-    padding: 5%;
-    text-align: center;
+    margin-top: 250px;
+}
+
+.aboutContainer .container-fluid {
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    
+}
+
+.aboutContainer .container-fluid .row{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    margin:0;
+}
+
+.aboutContainer img {
+    padding: 0px;
+    margin: 0px;
+}
+
+.aboutBadge {
+    width:275px;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    right: 50%;
+    transform: translateX(50%) translateY(-50%);
+}
+
+.aboutBadge img {
+     animation: rotation 12s infinite linear; 
+}
+
+
+.aboutContainer .col-md-6 {
+    padding: 0px;
+    margin: 0px;
 }
 
 .aboutDescription {
@@ -80,8 +119,21 @@
    transform: translateY(15%);
 }
 
+@keyframes rotation {
+    from {
+      transform: rotate(0deg) ;
+    }
+    to {
+      transform: rotate(359deg) ;
+    }
+  }
+
 @media (max-width: 768px) {
     
+    .aboutContainer {
+        margin-top: 125px;
+    }
+
     .aboutDescription {
         padding: 0;
         padding-top: 35px;
@@ -95,5 +147,29 @@
     .ampersand {
         font-size: 1.75rem;
     }
+
+    .aboutBadge {
+        width: 150px;
+        
+        
+    }
+
+    .aboutContainer .container-fluid .row{
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+        text-align: center;
+
+    }
+
+    .aboutContainer .col-sm-12 {
+        padding: 0px;
+        margin: 0px;
+    }
+
+
 }
+
 
