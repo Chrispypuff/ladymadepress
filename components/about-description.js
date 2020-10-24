@@ -42,7 +42,7 @@ export default function AboutDescription()  {
                                 </Link>
                                 <div  className="ampersand"> <p>&</p> </div>
                                 
-                                <a href="mailto:esposito.brittany@gmail.com">
+                                <a href="mailto:ladymadepress@gmail.com">
                                     <button className="whiteButton"> Contact</button>
                                 </a>
                                 

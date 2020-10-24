@@ -15,8 +15,8 @@ export default function Footer (){
 
             <div className="socialItem">
               <h5 className="linkTitle">Contact</h5>
-                <a  href="mailto:esposito.brittany@gmail.com" className="socialLink">
-                  esposito.brittany@gmail.com
+                <a  href="mailto:ladymadepress@gmail.com" className="socialLink">
+                  ladymadepress@gmail.com
                 </a>
               </div>
 

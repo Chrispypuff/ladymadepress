@@ -28,7 +28,8 @@
 
 .logoDesktop {
     height: 175px;
-    width: auto;
+    width: 175px;
+    display: block;
 }
 
 .navMenu button:hover {
