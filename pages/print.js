@@ -26,6 +26,8 @@ export default function Print(props) {
         <Head>
             <title>Print Design</title>
             <link rel="icon" href="/favicon.ico" />
+            <meta name="description" content="Print designs from wedding invitations to business cards, everything you can dream of." />
+            <meta name="keywords" content="Graphic Design, Wedding invitations, Wedding announcements Print Design, Business Cards Louisville, Logo design  " />
         </Head>
        <header>
             <NavBar drawerClickHandler={() => setOpen(!sideDrawerOpen)}/> 

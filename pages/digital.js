@@ -27,6 +27,8 @@ export default function Digital(props) {
         <Head>
             <title>Digital Design</title>
             <link rel="icon" href="/favicon.ico" />
+            <meta name="description" content="Digital designs ranging from social media covers and sponsored content, to digital illustrations and animated gifs." />
+            <meta name="keywords" content="Illustration, social media design, facebook post designs, logo design, digital illustration Louisville " />
         </Head>
        <header>
             <NavBar drawerClickHandler={() => setOpen(!sideDrawerOpen)}/> 
@@ -74,7 +76,7 @@ export default function Digital(props) {
                             <img className="carouselItem" src="/digital/10.jpg" alt="Teen Wolf Illustration" />
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img className="carouselItem" src="/digital/11.jpg" alt="Bloodsuck'n Babe Illustration" />
+                            <img className="carouselItem" src="/digital/11.jpg" alt="Bloodsucking Babe Illustration" />
                         </Carousel.Item>
                         <Carousel.Item>
                             <img className="carouselItem" src="/digital/12.jpg" alt="Witchy Woman Illustration"/>

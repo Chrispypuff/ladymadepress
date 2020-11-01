@@ -27,6 +27,8 @@ export default function Apparel(props) {
         <Head>
             <title>Apparel Design</title>
             <link rel="icon" href="/favicon.ico" />
+            <meta name="description" content="Clothing Designs from hats to shirts and anything in between." />
+            <meta name="keywords" content="Graphic Design, Apparel Design, Apparel Design Louisville, t-shirt design, clothing designer " />
         </Head>
        <header>
             <NavBar drawerClickHandler={() => setOpen(!sideDrawerOpen)}/> 

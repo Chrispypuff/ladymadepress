@@ -23,7 +23,10 @@ export default function Home(props) {
     <div className="index">
       <Head>
         <title>Lady Made Press</title>
-        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&family=Vollkorn:wght@800&display=swap" rel="stylesheet" />        <link rel="icon" href="/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&family=Vollkorn:wght@800&display=swap" rel="stylesheet" />        
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="Lady Made Press offers full service graphic design to help with your business need, custom apparel, wedding announcements, and so much more. Contact me today!" />
+        <meta name="keywords" content="Graphic Design Louisville, Woman owned business, logo design louisville, wedding announcements, female designer, apparel designer, print designer, digital designer, social media manager" />
       </Head>
 
       <header>
