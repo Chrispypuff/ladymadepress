@@ -27,7 +27,8 @@ export default function AboutDescription()  {
                             
                             <h4>I FIND JOY IN MAKING FOR OTHERS</h4>
                             
-                            <p>Gift giving is 100% my love language. For me, design is an extension of that. What logo design, wedding invitations, or wrapping a gift all have in common is: creating the perfect package. Making something that looks cool is fun but I am more interested in making something personal to you. The best gifts are never the flashiest or loudest, they're the ones that mean the most. </p>
+                            <p>Gift giving is 100% my love language. For me, design is an extension of that. What logo design, wedding invitations, or wrapping a gift all have in common is: creating the perfect package.</p>
+                            <p> Making something that looks cool is fun but I am more interested in making something personal to you. The best gifts are never the flashiest or loudest, they're the ones that mean the most. </p>
                             
                             <h4>MORE ABOUT ME</h4>
                             
